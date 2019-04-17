@@ -1,3 +1,4 @@
+
 /*
   Shows the playlist
 */
@@ -17,14 +18,14 @@ document.getElementsByClassName('close-playlist')[0].addEventListener('click', f
 });
 
 Amplitude.init({
-  "songs": [
+  songs: [
     {
-      "name": "First Snow",
-      "artist": "Emancipator",
-      "album": "Soon It Will Be Cold Enough",
-      "url": "https://521dimensions.com/song/FirstSnow-Emancipator.mp3",
-      "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/soon-it-will-be-cold-enough.jpg"
-    }
+        "name": "Now Let Me See You Work",
+        "artist": "Joe Brunning",
+        "album": "Ibiza",
+        "url": "songs/work.mp3",
+        "cover_art_url": ""
+      }
   ],
   "playlists": {
     "emancipator": {
